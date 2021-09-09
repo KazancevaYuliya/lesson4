@@ -1,0 +1,75 @@
+header {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px;
+   }
+
+h1 {
+    color: #696969;
+    font-size: 54px;
+}
+
+h1 span {
+    font-size: 36px;
+    display: block;
+}
+
+h1 span::after {
+content:"";
+background: url(../image/Logo.png);
+width: 40px;
+height: 40px;
+display: inline-block;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.container nav a {
+    display: inline;
+    margin-left: 50px;
+}
+
+p {
+    width: 390px;
+    height: 108px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.move-to {
+    display: inline-block;
+    background-color:wheat;
+    color: #000;
+    text-decoration: none;
+    padding-left: 26px;
+    line-height: 64px;
+}
+
+.move-to::after {
+    content: ">";
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: tomato;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    margin-left: 26px;
+
+}
+.logo {
+    display: inline;
+    padding-right: 250px;
+    border: 30px;
+    margin-top: auto;
+    margin: 20px;
+    float: right;
+    max-width: 30%;
+   
+}
+
+
+
+
+
